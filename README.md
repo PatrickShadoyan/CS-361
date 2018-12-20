@@ -1,6 +1,6 @@
 # CS-361
-This is a compilation of problems required as a final examination for CS 361 (Data Structures/Algorithms).
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+This is a compilation of problems required as a final examination for CS 361 (Data Structures/Algorithms).
 
 For the problems above, I applied knowledge of ADT's, Binary Trees, and BFS/DFS Graph Traversing algorithms.
 
