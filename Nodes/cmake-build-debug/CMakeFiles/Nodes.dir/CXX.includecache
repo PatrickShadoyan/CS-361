@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Patrick/CS361_Final/Nodes/main.cpp
+nodes.h
+C:/Users/Patrick/CS361_Final/Nodes/nodes.h
+
+C:/Users/Patrick/CS361_Final/Nodes/nodes.h
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+vector
+-
+ctime
+-
+queue
+-
+random
+-
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Patrick/CS361_Final/Rectangle/Rect.h
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+vector
+-
+ctime
+-
+queue
+-
+random
+-
+
+C:/Users/Patrick/CS361_Final/Rectangle/main.cpp
+Rect.h
+C:/Users/Patrick/CS361_Final/Rectangle/Rect.h
+
