@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Patrick/CS361_Final/Tree/boxes.h
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+vector
+-
+ctime
+-
+queue
+-
+random
+-
+
+C:/Users/Patrick/CS361_Final/Tree/main.cpp
+boxes.h
+C:/Users/Patrick/CS361_Final/Tree/boxes.h
+
