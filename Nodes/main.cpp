@@ -66,7 +66,7 @@ int main() {
 }
 void display(node n[], int input)
 {
-    cout << "Node print-out is in terms of indices, so node 1 is shown as node 0, as well as their children." << endl << endl;
+    cout << endl;
     vector<node*> temp;
     for(int i = 0; i < input; i++)
     {
@@ -83,7 +83,7 @@ void display(node n[], int input)
 }
 int* BFS(node n[], int first, int size)
 {
-    cout << "Node print-out is in terms of indices, so node 1 is shown as node 0, as well as their children." << endl << endl;
+    cout << endl;
     bool *visited = new bool[size];
     int * prev = new int[size];
     list<int> queue;
@@ -124,8 +124,7 @@ int* BFS(node n[], int first, int size)
 }
 void shortest_path(int * x, int begin, int end, int in)
 {
-    cout << endl;
-    cout << "Using BFS algorithm, backtracking to get the shortest path, this took a hell of a long time to figure out but I'm glad I chose this problem to do, since I had no idea what I was doing going into it." << endl;
+    cout << endl << endl;
     int temp = end;
     vector<int> backwards_path;
     int temp2;
