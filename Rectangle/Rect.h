@@ -20,10 +20,10 @@ class coordinate
 {
 public:
     coordinate(){}
-    coordinate(double ex, double why)
+    coordinate(double x, double y)
     {
-        x = ex;
-        y = why;
+        coordinate::x = x;
+        coordinate::y = y;
     }
     double getX() const {
         return x;
