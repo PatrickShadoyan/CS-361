@@ -5,7 +5,7 @@ void shortest_path(int * x, int begin, int end, int in);
 void display(node * n, int input);
 int main() {
 
-    default_random_engine engine(time(NULL)); //Need to research why I was using a pointer to this, Mr. Morris Sir explained but I have forgotten
+    default_random_engine engine(time(NULL));
 
     int in;
     int in_first;
